@@ -41,6 +41,8 @@ Performance is compared with both the previous year and budget.
 
 Dynamic insights summarize the most important changes and help identify areas that require further analysis.
 
+![Executive Summary](screenshots/01_Vadovu_santrauka.png)
+
 ---
 
 ## Sales Analysis
@@ -69,6 +71,16 @@ The analysis supports comparison against both:
 - Previous Year
 - Budget
 
+![Sales Analysis](screenshots/02_Pardavimu_analize.png)
+
+### Sales Driver Analysis – Year over Year
+
+![Sales Drivers YoY](screenshots/03_Pardavimu_veiksniu_medis_YoY.png)
+
+### Sales Driver Analysis – Budget
+
+![Sales Drivers Budget](screenshots/04_Pardavimu_veiksniu_medis_Biudzetas.png)
+
 ---
 
 ## Profitability Analysis
@@ -94,6 +106,16 @@ An interactive decomposition tree enables deeper analysis of Gross Profit change
 
 This helps identify where profitability improved or deteriorated and whether the change was driven by revenue, cost, or margin performance.
 
+![Profitability Analysis](screenshots/05_Pelningumo_analize.png)
+
+### Gross Profit Driver Analysis – Year over Year
+
+![Profit Drivers YoY](screenshots/06_Pelno_veiksniu_medis_YoY.png)
+
+### Gross Profit Driver Analysis – Budget
+
+![Profit Drivers Budget](screenshots/07_Pelno_veiksniu_medis_Biudzetas.png)
+
 ---
 
 ## Customer Analysis
@@ -111,6 +133,8 @@ Key metrics include:
 
 The analysis includes new vs returning customers, customer value distribution, and revenue by customer segment.
 
+![Customer Analysis](screenshots/08_Klientu_analize.png)
+
 A dedicated Customer Lifecycle page extends the analysis with:
 
 - RFM segmentation
@@ -121,6 +145,8 @@ A dedicated Customer Lifecycle page extends the analysis with:
 RFM segments can be combined with customer value levels to filter the customer base and move down to individual customers.
 
 This makes it possible to identify, for example, high-value loyal customers that should be retained, customers requiring attention, and customers at risk of becoming inactive.
+
+![Customer Lifecycle](screenshots/09_Klientu_gyvavimo_ciklas.png)
 
 ---
 
@@ -149,6 +175,8 @@ The analysis helps identify:
 
 Detailed product and supplier information supports operational decision-making.
 
+![Inventory and Supply Analysis](screenshots/10_Atsargu_ir_tiekimo_analize.png)
+
 ---
 
 ## Marketing Analysis
@@ -170,6 +198,8 @@ The marketing funnel tracks performance from:
 
 **Impressions → Clicks → Conversions → Attributed Revenue**
 
+![Marketing Efficiency Analysis](screenshots/11_Rinkodaros_efektyvumo_analize.png)
+
 Campaign performance can be analysed using several selectable metrics:
 
 - ROAS
@@ -180,6 +210,8 @@ Campaign performance can be analysed using several selectable metrics:
 The analysis can be expanded through the decomposition tree to understand which channels, campaign objectives, target categories, and individual campaigns drive marketing results.
 
 A detailed campaign table provides campaign-level profitability and conversion metrics.
+
+![Campaign Analysis](screenshots/12_Kampaniju_analize.png)
 
 ---
 
@@ -206,6 +238,8 @@ Key forecast KPIs include:
 - Gross Margin Forecast
 - Contribution Profit Forecast
 - Forecast Accuracy (MAPE)
+
+![Forecasting and Scenario Analysis](screenshots/13_Prognozes_ir_scenariju_analize.png)
 
 ---
 
@@ -254,6 +288,8 @@ MAPE can be analysed by:
 
 This helps identify segments where the forecasting model performs well and areas where forecast reliability is lower.
 
+![Forecast Detail](screenshots/14_Prognoziu_detalizacija.png)
+
 ---
 
 ## Data Model
@@ -283,6 +319,34 @@ Main dimensions include:
 - Dim_Employee
 
 The model separates different business processes into dedicated fact tables while using shared dimensions for consistent filtering and analysis.
+
+### Sales Model
+
+![Sales Model](screenshots/15_Sales_Model.png)
+
+### Inventory Model
+
+![Inventory Model](screenshots/16_Inventory_Model.png)
+
+### Deliveries Model
+
+![Deliveries Model](screenshots/17_Deliveries_Model.png)
+
+### Returns Model
+
+![Returns Model](screenshots/18_Returns_Model.png)
+
+### Marketing Model
+
+![Marketing Model](screenshots/19_Marketing_Model.png)
+
+### Payments Model
+
+![Payments Model](screenshots/20_Payments_Model.png)
+
+### Budget & Forecast Model
+
+![Budget Forecast Model](screenshots/21_Budget_Forecast_Model.png)
 
 ---
 
@@ -357,12 +421,6 @@ The report is designed to answer questions such as:
 - Power Query
 - DAX
 - Excel / CSV data sources
-
----
-
-## Dashboard Preview
-
-Dashboard screenshots will be added below.
 
 ---
 
